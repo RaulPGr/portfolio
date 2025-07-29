@@ -73,11 +73,17 @@ footer {
 
 .card {
   background: white;
-  padding: 1.5rem;
-  border-radius: 10px;
-  margin-bottom: 2rem; /* aquí damos espacio entre tarjetas */
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  padding: 1.8rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
 }
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
 
 .card h3 {
   margin-bottom: 0.5rem;
